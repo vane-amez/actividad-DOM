@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+
+    <div class="container">
+        <div class="container-card">
+            <div class="card">
+                <h1>Gestor de tareas con estado</h1>
+            
+                <div>
+                    <label for="tarea">Tarea:</label>
+                    <input id="tarea" type="text" name="tarea" placeholder="Escribe la tarea.">
+                </div>
+                <div>
+                    <select name="seleccion" id="seleccion">
+                        <option value="">--Selecciona la prioridad</option>
+                        <option value="baja">Baja</option>
+                        <option value="media">Media</option>
+                        <option value="alta">Alta</option>
+                    </select>
+                </div>
+
+                <button id="boton" type="button">Agregar tarea/button>
+                <ul id="lista"></ul>
+            </div>
+        </div>
+    </div>
     
 </body>
 

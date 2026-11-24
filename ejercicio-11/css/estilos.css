@@ -1,1 +1,53 @@
-.gitkeep
+body {
+    background-color: beige;
+    /* Color fondo */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Tipo de letra */
+}
+
+.container {
+    width: 90%;
+    /* El contenedor solo ocupa el 90% */
+    max-width: 1200px;
+    /* Evita que el contenido se extire demasiado en monitores grandes */
+    margin: 0 auto;
+    /* Centra horizontalmente, dejando 0 margin arriba y abajo y espacios a los lados */
+    padding: 20px 0;
+    /* Añade aire arriba y abajo */
+}
+
+.container-card {
+    display: flex;
+    /* Activa flexbox, organizar los elementos hijos "cards" de forma flexible */
+    flex-direction: column;
+    /* Apila las tarjetas una debajo de la otra en columna */
+    align-items: center;
+    /* Centra las tarjetas horizontalmente */
+    gap: 20px;
+    /* Añade espacio limpio entre cada tarjeta */
+}
+
+.card {
+    width: 100%;
+    /* Ancho 100% se adapta a celulares*/
+    max-width: 500px;
+    /* Evita que sea demasiado ancho en PC */
+    padding: 15px;
+    /* Relleno interno */
+    box-sizing: border-box;
+    /* Permite que el width y el padding no se desborden o crezca más */
+    border-radius: 8px;
+    border: 1px solid black;
+    /* Define grosor, estilo y color del borde */
+    background-color: white;
+    /* Hace que la tarjeta destaque sobre el fondo */
+
+}
+
+p {
+    color: red;
+}
+
+#exito {
+    color: green;
+}
