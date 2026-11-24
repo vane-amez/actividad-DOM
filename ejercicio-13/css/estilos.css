@@ -43,3 +43,26 @@ body {
     /* Hace que la tarjeta destaque sobre el fondo */
 
 }
+
+.grande {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.miniatura {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.miniatura.activa {
+    border-color: black;
+    opacity: 1;
+}

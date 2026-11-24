@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 13</title>
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
-<body>
 
+<body>
     <div class="container">
+        <h1>Galería de imágenes con miniaturas</h1>
+
         <div class="container-card">
-            <h1>Galería de imágenes con miniaturas</h1>
             <div class="card">
-                <img src="./img/1.png" alt="">
-            </div>
-            <div class="card">
-                <img src="./img/2.png" alt="">
-            </div>
-            <div class="card">
-                <img src="./img/3.jpg" alt="">
-            </div>
-            <div class="card">
-                <img src="./img/4.png" alt="">
+                <h2 id="titulo">Grande</h2>
+                <img id="grande" class="grande" src="./img/4.png" alt="Imagen seleccionada">
             </div>
         </div>
+
+        <div class="galeria">
+            <img id="imagen1" class="miniatura activa" src="./img/1.png" alt="Miniatura 1">
+            <img id="imagen2" class="miniatura" src="./img/2.png" alt="Miniatura 2">
+            <img id="imagen3" class="miniatura" src="./img/3.jpg" alt="Miniatura 3">
+        </div>
     </div>
-    
+
 </body>
 
 <script src="./js/js.js"></script>
