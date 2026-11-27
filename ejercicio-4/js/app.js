@@ -1,7 +1,7 @@
 const cambiar = document.getElementById('cambiar')
 const color = document.getElementById('color')
 
-color.addEventListener('click', function () {
+color.addEventListener('change', function () {
     if (color.value === 'azul') {
         cambiar.style.background = 'blue'
         cambiar.style.color = 'white'
