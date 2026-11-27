@@ -61,8 +61,3 @@ body {
     opacity: 0.6;
     cursor: pointer;
 }
-
-.miniatura.activa {
-    border-color: black;
-    opacity: 1;
-}

@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 15</title>
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
 
     <div class="container">
         <div class="container-card">
             <div class="card">
                 <h1>Gestor de tareas con estado</h1>
-            
+
                 <div>
                     <label for="tarea">Tarea:</label>
                     <input id="tarea" type="text" name="tarea" placeholder="Escribe la tarea.">
@@ -26,12 +28,14 @@
                     </select>
                 </div>
 
-                <button id="boton" type="button">Agregar tarea/button>
+                <button id="agregar" type="button">Agregar tarea</button>
                 <ul id="lista"></ul>
+                <p id="aviso"></p>
+                <p id="contador">Tareas pendientes: 0</p>
             </div>
         </div>
     </div>
-    
+
 </body>
 
 <script src="./js/js.js"></script>
